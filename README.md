@@ -1,1 +1,3 @@
-# proyecto-recsys
+# Proyecto RecSys UC 2025 - 1 MIND dataset
+
+Para poder replicar los resultados del proyecto se deben tener los datos guardados en carpetas llamadas MINDsmall_train y MINDlarge_train, pueden ser descargados en este link https://msnews.github.io/. En la tercera celda del Jupyter se debe definir la variable size como "small" o "large" dependiendo de con cuál se quieran ver los resultados. Cabe destacar que en caso de querer ver el resultado de las celdas "large" no se puede correr todo el cuadernillo ya que la RAM no es suficiente como se indica en la entrega del proyecto.
