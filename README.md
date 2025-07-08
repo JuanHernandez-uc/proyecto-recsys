@@ -8,10 +8,16 @@ En algunos archivos está implementado el uso de embeddings preentrenados de htt
 
 Cada archivo corresponde a:
 
-- `FastFormerNRMS old batches.ipynb`: modelo NRMS + FastFormer implementando con la división de batches antigua. Para poder correrlo se debe tener los archivos `behaviors.tsv` y `news.tsv`.
+- `LSTUR.ipynb`: modelo LSTUR entrenado con el dataset small.
+
+- `FastFormerNRMS old batches.ipynb`: modelo NRMS + FastFormer implementando con la división de batches antigua.
 
 - `NRMS old batches.ipynb`: modelo NRMS implementando con la división de batches antigua. Para poder correrlo se debe tener los archivos `behaviors_sample.tsv` y `news_sample.tsv` (archivos presentes en el repo). Se puede ejecutar con glove.
 
-- `NRMSFastFormer new batches.ipynb`: modelo NRMS + FastFormer implementando con la división de batches nueva. Para poder correrlo se debe tener los archivos `behaviors.tsv` y `news.tsv`. Se puede ejecutar con glove.
+- `NRMSFastFormer new batches.ipynb`: modelo NRMS + FastFormer implementando con la división de batches nueva. Se puede ejecutar con glove. Este cuadernillo fue ejecutado con el dataset small.
 
 - `nrms_fastformer_best.pt`: mejor modelo entrenado de `NRMSFastFormer new batches.ipynb`. Cabe recalcar que no está implementada la forma de cargar este archivo.
+
+- `NRMSFastFormer_new_batches_word2vec.ipynb`: modelo entrenado con todo el dataset large y embedding preentrenados word2vec.
+
+- `Best FastFormerNRMS.ipynb`: mejor modelo entrenado con todo el dataset large y embedding preentrenados GloVe. Además posee el cálculo de métricas de novedad y diversidad. También tiene ejemplos de recomendación.
